@@ -33,6 +33,9 @@
     <ClCompile Include="AbstractFactory\level.cpp">
       <Filter>Исходные файлы\AbstractFactory</Filter>
     </ClCompile>
+    <ClCompile Include="run.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -43,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="AbstractFactory\level_factory.h">
       <Filter>Файлы заголовков\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="run.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

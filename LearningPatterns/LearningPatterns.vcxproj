@@ -128,11 +128,13 @@
     <ClCompile Include="AbstractFactory\level_factory.cpp" />
     <ClCompile Include="AbstractFactory\monster.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="run.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\level.h" />
     <ClInclude Include="AbstractFactory\level_factory.h" />
     <ClInclude Include="AbstractFactory\monster.h" />
+    <ClInclude Include="run.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
