@@ -24,5 +24,25 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="AbstractFactory\monster.cpp">
+      <Filter>Исходные файлы\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory\level_factory.cpp">
+      <Filter>Исходные файлы\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory\level.cpp">
+      <Filter>Исходные файлы\AbstractFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractFactory\monster.h">
+      <Filter>Файлы заголовков\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\level.h">
+      <Filter>Файлы заголовков\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\level_factory.h">
+      <Filter>Файлы заголовков\AbstractFactory</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
