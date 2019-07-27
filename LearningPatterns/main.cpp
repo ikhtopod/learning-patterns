@@ -1,7 +1,8 @@
 #include "run.h"
 
 int main() {
-	RunAbstractFactory();
+	// RunAbstractFactory();
+	RunComposite();
 
 	return 0;
 }

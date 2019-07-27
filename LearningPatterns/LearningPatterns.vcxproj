@@ -127,6 +127,8 @@
     <ClCompile Include="AbstractFactory\level.cpp" />
     <ClCompile Include="AbstractFactory\level_factory.cpp" />
     <ClCompile Include="AbstractFactory\monster.cpp" />
+    <ClCompile Include="Composite\catering.cpp" />
+    <ClCompile Include="Composite\composite.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="run.cpp" />
   </ItemGroup>
@@ -134,6 +136,8 @@
     <ClInclude Include="AbstractFactory\level.h" />
     <ClInclude Include="AbstractFactory\level_factory.h" />
     <ClInclude Include="AbstractFactory\monster.h" />
+    <ClInclude Include="Composite\catering.h" />
+    <ClInclude Include="Composite\composite.h" />
     <ClInclude Include="run.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

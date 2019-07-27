@@ -19,6 +19,12 @@
     <Filter Include="Файлы заголовков\AbstractFactory">
       <UniqueIdentifier>{a1748660-f656-40ee-9ad3-7cb35009231f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Composite">
+      <UniqueIdentifier>{a8dfe412-4162-4599-ba97-22b1d2b3c1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Composite">
+      <UniqueIdentifier>{8ffd5df5-774a-4484-b2a2-4584b3c9295a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -36,6 +42,12 @@
     <ClCompile Include="run.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Composite\composite.cpp">
+      <Filter>Исходные файлы\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Composite\catering.cpp">
+      <Filter>Исходные файлы\Composite</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -49,6 +61,12 @@
     </ClInclude>
     <ClInclude Include="run.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite\composite.h">
+      <Filter>Файлы заголовков\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite\catering.h">
+      <Filter>Файлы заголовков\Composite</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
