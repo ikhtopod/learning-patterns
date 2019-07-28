@@ -25,6 +25,12 @@
     <Filter Include="Файлы заголовков\Composite">
       <UniqueIdentifier>{8ffd5df5-774a-4484-b2a2-4584b3c9295a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Iterator">
+      <UniqueIdentifier>{998269be-43f5-4120-9582-85a955eada6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Iterator">
+      <UniqueIdentifier>{4cc40998-512b-4474-ba38-8d848f6fa15e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,6 +54,15 @@
     <ClCompile Include="Composite\catering.cpp">
       <Filter>Исходные файлы\Composite</Filter>
     </ClCompile>
+    <ClCompile Include="Iterator\list.cpp">
+      <Filter>Исходные файлы\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator\iterator.cpp">
+      <Filter>Исходные файлы\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator\monster.cpp">
+      <Filter>Исходные файлы\Iterator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -67,6 +82,15 @@
     </ClInclude>
     <ClInclude Include="Composite\catering.h">
       <Filter>Файлы заголовков\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator\iterator.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator\list.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator\monster.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -43,3 +43,14 @@ void RunComposite() {
 			"Composite result = " << bar.GetLast().GetPrices() << std::endl;
 	}
 }
+
+void RunIterator() {
+	using namespace Iterator;
+
+	{
+		// MonsterList monsters {};
+		// monsters.Add(std::shared_ptr<Zombie> { new Zombie { "OneZ" } });
+		// monsters.Add(std::make_shared<Zombie>("TwoZ"));
+		// monsters.Add(std::make_shared<Skeleton>("OneS"));
+	}
+}

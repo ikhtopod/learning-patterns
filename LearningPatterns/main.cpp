@@ -2,7 +2,8 @@
 
 int main() {
 	// RunAbstractFactory();
-	RunComposite();
+	// RunComposite();
+	RunIterator();
 
 	return 0;
 }

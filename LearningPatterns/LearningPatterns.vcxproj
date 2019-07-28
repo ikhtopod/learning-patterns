@@ -88,6 +88,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,6 +130,9 @@
     <ClCompile Include="AbstractFactory\monster.cpp" />
     <ClCompile Include="Composite\catering.cpp" />
     <ClCompile Include="Composite\composite.cpp" />
+    <ClCompile Include="Iterator\iterator.cpp" />
+    <ClCompile Include="Iterator\list.cpp" />
+    <ClCompile Include="Iterator\monster.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="run.cpp" />
   </ItemGroup>
@@ -138,6 +142,9 @@
     <ClInclude Include="AbstractFactory\monster.h" />
     <ClInclude Include="Composite\catering.h" />
     <ClInclude Include="Composite\composite.h" />
+    <ClInclude Include="Iterator\iterator.h" />
+    <ClInclude Include="Iterator\list.h" />
+    <ClInclude Include="Iterator\monster.h" />
     <ClInclude Include="run.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
