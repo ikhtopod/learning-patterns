@@ -48,9 +48,16 @@ void RunIterator() {
 	using namespace Iterator;
 
 	{
-		// MonsterList monsters {};
-		// monsters.Add(std::shared_ptr<Zombie> { new Zombie { "OneZ" } });
-		// monsters.Add(std::make_shared<Zombie>("TwoZ"));
-		// monsters.Add(std::make_shared<Skeleton>("OneS"));
+		Monsters monsters {};
+		monsters.Add(std::shared_ptr<Zombie> { new Zombie { "OneZ" } });
+		monsters.Add(std::make_shared<Zombie>("TwoZ"));
+		monsters.Add(std::make_shared<Skeleton>("OneS"));
+
+		std::shared_ptr<MonsterIterator> M_Iter = monsters.CreateIterator();
+
+		for (; !M_Iter->IsDone(); M_Iter->Next()) {
+			std::cout << M_Iter->CurrentItem().GetId() << std::endl;
+		}
+		M_Iter->Reset();
 	}
 }
