@@ -31,6 +31,12 @@
     <Filter Include="Файлы заголовков\Iterator">
       <UniqueIdentifier>{4cc40998-512b-4474-ba38-8d848f6fa15e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Prototype">
+      <UniqueIdentifier>{1b4fdaaf-d45b-4c35-bb06-cd693c973b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Prototype">
+      <UniqueIdentifier>{a41de844-35b8-4593-b3ee-df690952ba4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -63,6 +69,9 @@
     <ClCompile Include="Iterator\monster.cpp">
       <Filter>Исходные файлы\Iterator</Filter>
     </ClCompile>
+    <ClCompile Include="Prototype\prototype.cpp">
+      <Filter>Исходные файлы\Prototype</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -91,6 +100,9 @@
     </ClInclude>
     <ClInclude Include="Iterator\monster.h">
       <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype\prototype.h">
+      <Filter>Файлы заголовков\Prototype</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

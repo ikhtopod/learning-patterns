@@ -3,7 +3,8 @@
 int main() {
 	// RunAbstractFactory();
 	// RunComposite();
-	RunIterator();
+	// RunIterator();
+	RunPrototype();
 
 	return 0;
 }

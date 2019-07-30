@@ -135,6 +135,7 @@
     <ClCompile Include="Iterator\list.cpp" />
     <ClCompile Include="Iterator\monster.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Prototype\prototype.cpp" />
     <ClCompile Include="run.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +147,7 @@
     <ClInclude Include="Iterator\iterator.h" />
     <ClInclude Include="Iterator\list.h" />
     <ClInclude Include="Iterator\monster.h" />
+    <ClInclude Include="Prototype\prototype.h" />
     <ClInclude Include="run.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
