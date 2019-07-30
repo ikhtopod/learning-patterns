@@ -51,9 +51,6 @@
     <ClCompile Include="AbstractFactory\level.cpp">
       <Filter>Исходные файлы\AbstractFactory</Filter>
     </ClCompile>
-    <ClCompile Include="run.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Composite\composite.cpp">
       <Filter>Исходные файлы\Composite</Filter>
     </ClCompile>
@@ -72,6 +69,18 @@
     <ClCompile Include="Prototype\prototype.cpp">
       <Filter>Исходные файлы\Prototype</Filter>
     </ClCompile>
+    <ClCompile Include="AbstractFactory\run.cpp">
+      <Filter>Исходные файлы\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Composite\run.cpp">
+      <Filter>Исходные файлы\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator\run.cpp">
+      <Filter>Исходные файлы\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype\run.cpp">
+      <Filter>Исходные файлы\Prototype</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -82,9 +91,6 @@
     </ClInclude>
     <ClInclude Include="AbstractFactory\level_factory.h">
       <Filter>Файлы заголовков\AbstractFactory</Filter>
-    </ClInclude>
-    <ClInclude Include="run.h">
-      <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Composite\composite.h">
       <Filter>Файлы заголовков\Composite</Filter>
@@ -102,6 +108,18 @@
       <Filter>Файлы заголовков\Iterator</Filter>
     </ClInclude>
     <ClInclude Include="Prototype\prototype.h">
+      <Filter>Файлы заголовков\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\run.h">
+      <Filter>Файлы заголовков\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite\run.h">
+      <Filter>Файлы заголовков\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator\run.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype\run.h">
       <Filter>Файлы заголовков\Prototype</Filter>
     </ClInclude>
   </ItemGroup>

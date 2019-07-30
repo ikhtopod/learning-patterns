@@ -129,26 +129,32 @@
     <ClCompile Include="AbstractFactory\level.cpp" />
     <ClCompile Include="AbstractFactory\level_factory.cpp" />
     <ClCompile Include="AbstractFactory\monster.cpp" />
+    <ClCompile Include="AbstractFactory\run.cpp" />
     <ClCompile Include="Composite\catering.cpp" />
     <ClCompile Include="Composite\composite.cpp" />
+    <ClCompile Include="Composite\run.cpp" />
     <ClCompile Include="Iterator\iterator.cpp" />
     <ClCompile Include="Iterator\list.cpp" />
     <ClCompile Include="Iterator\monster.cpp" />
+    <ClCompile Include="Iterator\run.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Prototype\prototype.cpp" />
-    <ClCompile Include="run.cpp" />
+    <ClCompile Include="Prototype\run.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\level.h" />
     <ClInclude Include="AbstractFactory\level_factory.h" />
     <ClInclude Include="AbstractFactory\monster.h" />
+    <ClInclude Include="AbstractFactory\run.h" />
     <ClInclude Include="Composite\catering.h" />
     <ClInclude Include="Composite\composite.h" />
+    <ClInclude Include="Composite\run.h" />
     <ClInclude Include="Iterator\iterator.h" />
     <ClInclude Include="Iterator\list.h" />
     <ClInclude Include="Iterator\monster.h" />
+    <ClInclude Include="Iterator\run.h" />
     <ClInclude Include="Prototype\prototype.h" />
-    <ClInclude Include="run.h" />
+    <ClInclude Include="Prototype\run.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
