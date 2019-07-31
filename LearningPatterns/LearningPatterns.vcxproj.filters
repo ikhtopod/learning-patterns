@@ -37,6 +37,12 @@
     <Filter Include="Файлы заголовков\Prototype">
       <UniqueIdentifier>{a41de844-35b8-4593-b3ee-df690952ba4f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Command">
+      <UniqueIdentifier>{5402e619-cae2-44ac-80d6-c64d8d08e867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Command">
+      <UniqueIdentifier>{9474654d-4323-4d57-89ca-c2dd5c8caf07}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -81,6 +87,12 @@
     <ClCompile Include="Prototype\run.cpp">
       <Filter>Исходные файлы\Prototype</Filter>
     </ClCompile>
+    <ClCompile Include="Command\run.cpp">
+      <Filter>Исходные файлы\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\command.cpp">
+      <Filter>Исходные файлы\Command</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -121,6 +133,12 @@
     </ClInclude>
     <ClInclude Include="Prototype\run.h">
       <Filter>Файлы заголовков\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\command.h">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\run.h">
+      <Filter>Файлы заголовков\Command</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

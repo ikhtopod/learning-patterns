@@ -130,6 +130,8 @@
     <ClCompile Include="AbstractFactory\level_factory.cpp" />
     <ClCompile Include="AbstractFactory\monster.cpp" />
     <ClCompile Include="AbstractFactory\run.cpp" />
+    <ClCompile Include="Command\command.cpp" />
+    <ClCompile Include="Command\run.cpp" />
     <ClCompile Include="Composite\catering.cpp" />
     <ClCompile Include="Composite\composite.cpp" />
     <ClCompile Include="Composite\run.cpp" />
@@ -146,6 +148,8 @@
     <ClInclude Include="AbstractFactory\level_factory.h" />
     <ClInclude Include="AbstractFactory\monster.h" />
     <ClInclude Include="AbstractFactory\run.h" />
+    <ClInclude Include="Command\command.h" />
+    <ClInclude Include="Command\run.h" />
     <ClInclude Include="Composite\catering.h" />
     <ClInclude Include="Composite\composite.h" />
     <ClInclude Include="Composite\run.h" />
