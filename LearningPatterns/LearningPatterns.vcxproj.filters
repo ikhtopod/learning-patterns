@@ -43,6 +43,12 @@
     <Filter Include="Файлы заголовков\Command">
       <UniqueIdentifier>{9474654d-4323-4d57-89ca-c2dd5c8caf07}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Flyweight">
+      <UniqueIdentifier>{6687aa90-cedc-40b9-9548-8013b7abc248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Flyweight">
+      <UniqueIdentifier>{f9e0ba18-76cb-4872-b31c-f89786fff3d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -93,6 +99,12 @@
     <ClCompile Include="Command\command.cpp">
       <Filter>Исходные файлы\Command</Filter>
     </ClCompile>
+    <ClCompile Include="Flyweight\flyweight.cpp">
+      <Filter>Исходные файлы\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="Flyweight\run.cpp">
+      <Filter>Исходные файлы\Flyweight</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -140,9 +152,18 @@
     <ClInclude Include="Command\run.h">
       <Filter>Файлы заголовков\Command</Filter>
     </ClInclude>
+    <ClInclude Include="Flyweight\flyweight.h">
+      <Filter>Файлы заголовков\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight\run.h">
+      <Filter>Файлы заголовков\Flyweight</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="template.zip">
       <Filter>Файлы ресурсов</Filter>
     </None>
   </ItemGroup>
