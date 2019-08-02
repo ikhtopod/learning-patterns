@@ -144,6 +144,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Prototype\prototype.cpp" />
     <ClCompile Include="Prototype\run.cpp" />
+    <ClCompile Include="State\run.cpp" />
+    <ClCompile Include="State\state.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\level.h" />
@@ -163,6 +165,8 @@
     <ClInclude Include="Iterator\run.h" />
     <ClInclude Include="Prototype\prototype.h" />
     <ClInclude Include="Prototype\run.h" />
+    <ClInclude Include="State\run.h" />
+    <ClInclude Include="State\state.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />

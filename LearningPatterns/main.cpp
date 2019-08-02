@@ -4,6 +4,7 @@
 #include "Prototype/run.h"
 #include "Command/run.h"
 #include "Flyweight/run.h"
+#include "State/run.h"
 
 int main() {
 	// AbstractFactory::Run();
@@ -11,7 +12,8 @@ int main() {
 	// Iterator::Run();
 	// Prototype::Run();
 	// Command::Run();
-	Flyweight::Run();
+	// Flyweight::Run();
+	State::Run();
 
 	return 0;
 }
