@@ -55,6 +55,12 @@
     <Filter Include="Файлы заголовков\State">
       <UniqueIdentifier>{d7a76ba0-f3f2-4719-9633-0cb114a7fbd6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Adapter">
+      <UniqueIdentifier>{eb920154-53e7-4f92-8df9-c9da202a49ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Adapter">
+      <UniqueIdentifier>{a5d3dc8b-4b54-4e80-809f-425db991ca8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -117,6 +123,12 @@
     <ClCompile Include="State\state.cpp">
       <Filter>Исходные файлы\State</Filter>
     </ClCompile>
+    <ClCompile Include="Adapter\adapter.cpp">
+      <Filter>Исходные файлы\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter\run.cpp">
+      <Filter>Исходные файлы\Adapter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -175,6 +187,12 @@
     </ClInclude>
     <ClInclude Include="State\state.h">
       <Filter>Файлы заголовков\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\adapter.h">
+      <Filter>Файлы заголовков\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\run.h">
+      <Filter>Файлы заголовков\Adapter</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
