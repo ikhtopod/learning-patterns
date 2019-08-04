@@ -4,6 +4,7 @@
 #define ADAPTER_RUN_H
 
 #include "adapter.h"
+#include "adapter_mammal.h"
 #include <iostream>
 
 namespace Adapter {

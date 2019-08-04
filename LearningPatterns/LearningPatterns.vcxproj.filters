@@ -129,6 +129,9 @@
     <ClCompile Include="Adapter\run.cpp">
       <Filter>Исходные файлы\Adapter</Filter>
     </ClCompile>
+    <ClCompile Include="Adapter\adapter_mammal.cpp">
+      <Filter>Исходные файлы\Adapter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -192,6 +195,9 @@
       <Filter>Файлы заголовков\Adapter</Filter>
     </ClInclude>
     <ClInclude Include="Adapter\run.h">
+      <Filter>Файлы заголовков\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\adapter_mammal.h">
       <Filter>Файлы заголовков\Adapter</Filter>
     </ClInclude>
   </ItemGroup>

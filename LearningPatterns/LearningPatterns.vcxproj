@@ -131,6 +131,7 @@
     <ClCompile Include="AbstractFactory\monster.cpp" />
     <ClCompile Include="AbstractFactory\run.cpp" />
     <ClCompile Include="Adapter\adapter.cpp" />
+    <ClCompile Include="Adapter\adapter_mammal.cpp" />
     <ClCompile Include="Adapter\run.cpp" />
     <ClCompile Include="Command\command.cpp" />
     <ClCompile Include="Command\run.cpp" />
@@ -155,6 +156,7 @@
     <ClInclude Include="AbstractFactory\monster.h" />
     <ClInclude Include="AbstractFactory\run.h" />
     <ClInclude Include="Adapter\adapter.h" />
+    <ClInclude Include="Adapter\adapter_mammal.h" />
     <ClInclude Include="Adapter\run.h" />
     <ClInclude Include="Command\command.h" />
     <ClInclude Include="Command\run.h" />
