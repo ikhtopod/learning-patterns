@@ -61,6 +61,12 @@
     <Filter Include="Файлы заголовков\Adapter">
       <UniqueIdentifier>{a5d3dc8b-4b54-4e80-809f-425db991ca8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Bridge">
+      <UniqueIdentifier>{5772dc64-0410-4529-9d1c-bf85d5f7a8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Bridge">
+      <UniqueIdentifier>{2aa8fc5d-0079-4d41-a38d-cc144a30f48c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -132,6 +138,12 @@
     <ClCompile Include="Adapter\adapter_mammal.cpp">
       <Filter>Исходные файлы\Adapter</Filter>
     </ClCompile>
+    <ClCompile Include="Bridge\bridge.cpp">
+      <Filter>Исходные файлы\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge\run.cpp">
+      <Filter>Исходные файлы\Bridge</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -199,6 +211,12 @@
     </ClInclude>
     <ClInclude Include="Adapter\adapter_mammal.h">
       <Filter>Файлы заголовков\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge\bridge.h">
+      <Filter>Файлы заголовков\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge\run.h">
+      <Filter>Файлы заголовков\Bridge</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

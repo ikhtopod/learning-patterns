@@ -6,6 +6,7 @@
 #include "Flyweight/run.h"
 #include "State/run.h"
 #include "Adapter/run.h"
+#include "Bridge/run.h"
 
 int main() {
 	// AbstractFactory::Run();
@@ -14,7 +15,9 @@ int main() {
 	// Prototype::Run();
 	// Command::Run();
 	// Flyweight::Run();
-	Adapter::Run();
+	// State::Run();
+	// Adapter::Run();
+	Bridge::Run();
 
 	return 0;
 }

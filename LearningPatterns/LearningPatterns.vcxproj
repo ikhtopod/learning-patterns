@@ -133,6 +133,8 @@
     <ClCompile Include="Adapter\adapter.cpp" />
     <ClCompile Include="Adapter\adapter_mammal.cpp" />
     <ClCompile Include="Adapter\run.cpp" />
+    <ClCompile Include="Bridge\bridge.cpp" />
+    <ClCompile Include="Bridge\run.cpp" />
     <ClCompile Include="Command\command.cpp" />
     <ClCompile Include="Command\run.cpp" />
     <ClCompile Include="Composite\catering.cpp" />
@@ -158,6 +160,8 @@
     <ClInclude Include="Adapter\adapter.h" />
     <ClInclude Include="Adapter\adapter_mammal.h" />
     <ClInclude Include="Adapter\run.h" />
+    <ClInclude Include="Bridge\bridge.h" />
+    <ClInclude Include="Bridge\run.h" />
     <ClInclude Include="Command\command.h" />
     <ClInclude Include="Command\run.h" />
     <ClInclude Include="Composite\catering.h" />
