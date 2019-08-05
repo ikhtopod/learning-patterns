@@ -147,6 +147,8 @@
     <ClCompile Include="Iterator\monster.cpp" />
     <ClCompile Include="Iterator\run.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Observer\observer.cpp" />
+    <ClCompile Include="Observer\run.cpp" />
     <ClCompile Include="Prototype\prototype.cpp" />
     <ClCompile Include="Prototype\run.cpp" />
     <ClCompile Include="State\run.cpp" />
@@ -173,6 +175,8 @@
     <ClInclude Include="Iterator\list.h" />
     <ClInclude Include="Iterator\monster.h" />
     <ClInclude Include="Iterator\run.h" />
+    <ClInclude Include="Observer\observer.h" />
+    <ClInclude Include="Observer\run.h" />
     <ClInclude Include="Prototype\prototype.h" />
     <ClInclude Include="Prototype\run.h" />
     <ClInclude Include="State\run.h" />

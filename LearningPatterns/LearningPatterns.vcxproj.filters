@@ -67,6 +67,12 @@
     <Filter Include="Файлы заголовков\Bridge">
       <UniqueIdentifier>{2aa8fc5d-0079-4d41-a38d-cc144a30f48c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Observer">
+      <UniqueIdentifier>{6944e7d4-7695-418f-bff4-1005c313cfaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Observer">
+      <UniqueIdentifier>{5284989a-6c78-4276-9d5a-58af7b01af92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -144,6 +150,12 @@
     <ClCompile Include="Bridge\run.cpp">
       <Filter>Исходные файлы\Bridge</Filter>
     </ClCompile>
+    <ClCompile Include="Observer\observer.cpp">
+      <Filter>Исходные файлы\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer\run.cpp">
+      <Filter>Исходные файлы\Observer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -217,6 +229,12 @@
     </ClInclude>
     <ClInclude Include="Bridge\run.h">
       <Filter>Файлы заголовков\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\observer.h">
+      <Filter>Файлы заголовков\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\run.h">
+      <Filter>Файлы заголовков\Observer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
