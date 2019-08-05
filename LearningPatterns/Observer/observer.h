@@ -19,8 +19,8 @@ protected:
 	std::set<EventListener*> m_listeners {};
 
 public:
-	virtual void Attach(EventListener* listener);
-	virtual void Detach(EventListener* listener);
+	virtual void Attach(EventListener& listener);
+	virtual void Detach(EventListener& listener);
 
 	virtual void Notify() = 0;
 };
@@ -60,7 +60,7 @@ public:
 
 	virtual void Update(const ResponseEventManager& response) override;
 
-	void ShowState();
+	void ShowState() const;
 };
 
 class LogSystem : public EventListener {
@@ -69,7 +69,7 @@ public:
 
 	virtual void Update(const ResponseEventManager& response) override;
 
-	void ShowLog();
+	void ShowLog() const;
 };
 
 } // namespace Observer

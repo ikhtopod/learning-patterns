@@ -12,8 +12,8 @@ void Run() {
 	LogSystem logSystem { startEvent };
 
 	AlarmManager alarm { startEvent };
-	alarm.Attach(&monitor);
-	alarm.Attach(&logSystem);
+	alarm.Attach(monitor);
+	alarm.Attach(logSystem);
 
 	monitor.ShowState();
 	logSystem.ShowLog();
@@ -22,7 +22,7 @@ void Run() {
 	monitor.ShowState();
 	logSystem.ShowLog();
 
-	alarm.Detach(&monitor);
+	alarm.Detach(monitor);
 
 	alarm.SetEvent(Event::ALARM);
 	logSystem.ShowLog();

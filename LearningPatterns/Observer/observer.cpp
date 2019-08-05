@@ -9,7 +9,7 @@ void Monitor::Update(const ResponseEventManager& response) {
 	m_currentEvent = response.event;
 }
 
-void Monitor::ShowState() {
+void Monitor::ShowState() const {
 	std::cout << "Monitor shows ";
 
 	switch (m_currentEvent) {
@@ -33,7 +33,7 @@ void LogSystem::Update(const ResponseEventManager& response) {
 	m_currentEvent = response.event;
 }
 
-void LogSystem::ShowLog() {
+void LogSystem::ShowLog() const {
 	std::cout << "Log: ";
 
 	switch (m_currentEvent) {
@@ -71,12 +71,12 @@ void AlarmManager::Notify() {
 	}
 }
 
-void EventManager::Attach(EventListener* listener) {
-	m_listeners.insert(listener);
+void EventManager::Attach(EventListener& listener) {
+	m_listeners.insert(&listener);
 }
 
-void EventManager::Detach(EventListener* listener) {
-	m_listeners.erase(m_listeners.find(listener));
+void EventManager::Detach(EventListener& listener) {
+	m_listeners.erase(m_listeners.find(&listener));
 }
 
 
