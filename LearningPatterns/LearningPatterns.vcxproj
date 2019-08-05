@@ -135,6 +135,8 @@
     <ClCompile Include="Adapter\run.cpp" />
     <ClCompile Include="Bridge\bridge.cpp" />
     <ClCompile Include="Bridge\run.cpp" />
+    <ClCompile Include="Builder\builder.cpp" />
+    <ClCompile Include="Builder\run.cpp" />
     <ClCompile Include="Command\command.cpp" />
     <ClCompile Include="Command\run.cpp" />
     <ClCompile Include="Composite\catering.cpp" />
@@ -164,6 +166,8 @@
     <ClInclude Include="Adapter\run.h" />
     <ClInclude Include="Bridge\bridge.h" />
     <ClInclude Include="Bridge\run.h" />
+    <ClInclude Include="Builder\builder.h" />
+    <ClInclude Include="Builder\run.h" />
     <ClInclude Include="Command\command.h" />
     <ClInclude Include="Command\run.h" />
     <ClInclude Include="Composite\catering.h" />

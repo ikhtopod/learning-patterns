@@ -73,6 +73,12 @@
     <Filter Include="Файлы заголовков\Observer">
       <UniqueIdentifier>{5284989a-6c78-4276-9d5a-58af7b01af92}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Builder">
+      <UniqueIdentifier>{fc8e1ded-3c8e-4c40-b641-59d6f8a34ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Builder">
+      <UniqueIdentifier>{5b232884-478c-4072-8316-825c3fa51565}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -156,6 +162,12 @@
     <ClCompile Include="Observer\run.cpp">
       <Filter>Исходные файлы\Observer</Filter>
     </ClCompile>
+    <ClCompile Include="Builder\builder.cpp">
+      <Filter>Исходные файлы\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder\run.cpp">
+      <Filter>Исходные файлы\Builder</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -235,6 +247,12 @@
     </ClInclude>
     <ClInclude Include="Observer\run.h">
       <Filter>Файлы заголовков\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\builder.h">
+      <Filter>Файлы заголовков\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\run.h">
+      <Filter>Файлы заголовков\Builder</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

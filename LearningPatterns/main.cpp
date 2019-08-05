@@ -8,6 +8,7 @@
 #include "Adapter/run.h"
 #include "Bridge/run.h"
 #include "Observer/run.h"
+#include "Builder/run.h"
 
 int main() {
 	// AbstractFactory::Run();
@@ -19,7 +20,7 @@ int main() {
 	// State::Run();
 	// Adapter::Run();
 	// Bridge::Run();
-	Observer::Run();
+	Builder::Run();
 
 	return 0;
 }
