@@ -79,6 +79,12 @@
     <Filter Include="Файлы заголовков\Builder">
       <UniqueIdentifier>{5b232884-478c-4072-8316-825c3fa51565}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\ChainOfResponsibility">
+      <UniqueIdentifier>{8753fed6-e6c2-49a6-88f3-cd3bcddfae76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ChainOfResponsibility">
+      <UniqueIdentifier>{55df4af2-baa7-451f-84f6-c04377c17915}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -168,6 +174,12 @@
     <ClCompile Include="Builder\run.cpp">
       <Filter>Исходные файлы\Builder</Filter>
     </ClCompile>
+    <ClCompile Include="ChainOfResponsibility\run.cpp">
+      <Filter>Исходные файлы\ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainOfResponsibility\chainofresponsibility.cpp">
+      <Filter>Исходные файлы\ChainOfResponsibility</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -253,6 +265,12 @@
     </ClInclude>
     <ClInclude Include="Builder\run.h">
       <Filter>Файлы заголовков\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainOfResponsibility\chainofresponsibility.h">
+      <Filter>Файлы заголовков\ChainOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainOfResponsibility\run.h">
+      <Filter>Файлы заголовков\ChainOfResponsibility</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
