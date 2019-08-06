@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{59A3D404-6FB8-44E0-BFEC-A35084399242}</ProjectGuid>
-    <RootNamespace>LearningPatterns</RootNamespace>
+    <ProjectGuid>{461768AC-F348-48B7-9ABD-8EF59C3F400C}</ProjectGuid>
+    <RootNamespace>PatternStructureGenerator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -39,10 +39,10 @@
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -70,18 +70,6 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup />
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
-      <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-    </Link>
-  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -90,12 +78,20 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <ObjectFileName>$(IntDir)\$(ProjectName)\$(ConfigurationName)\%(RelativeDir)</ObjectFileName>
-      <AdditionalIncludeDirectories>$(SolutionDir)PatternStructureGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>PatternStructureGenerator.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(TargetDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -129,69 +125,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AbstractFactory\level.cpp" />
-    <ClCompile Include="AbstractFactory\level_factory.cpp" />
-    <ClCompile Include="AbstractFactory\monster.cpp" />
-    <ClCompile Include="AbstractFactory\run.cpp" />
-    <ClCompile Include="Adapter\adapter.cpp" />
-    <ClCompile Include="Adapter\adapter_mammal.cpp" />
-    <ClCompile Include="Adapter\run.cpp" />
-    <ClCompile Include="Bridge\bridge.cpp" />
-    <ClCompile Include="Bridge\run.cpp" />
-    <ClCompile Include="Builder\builder.cpp" />
-    <ClCompile Include="Builder\run.cpp" />
-    <ClCompile Include="Command\command.cpp" />
-    <ClCompile Include="Command\run.cpp" />
-    <ClCompile Include="Composite\catering.cpp" />
-    <ClCompile Include="Composite\composite.cpp" />
-    <ClCompile Include="Composite\run.cpp" />
-    <ClCompile Include="Flyweight\flyweight.cpp" />
-    <ClCompile Include="Flyweight\run.cpp" />
-    <ClCompile Include="Iterator\iterator.cpp" />
-    <ClCompile Include="Iterator\list.cpp" />
-    <ClCompile Include="Iterator\monster.cpp" />
-    <ClCompile Include="Iterator\run.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Observer\observer.cpp" />
-    <ClCompile Include="Observer\run.cpp" />
-    <ClCompile Include="Prototype\prototype.cpp" />
-    <ClCompile Include="Prototype\run.cpp" />
-    <ClCompile Include="State\run.cpp" />
-    <ClCompile Include="State\state.cpp" />
+    <ClCompile Include="pattern_structure_generator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AbstractFactory\level.h" />
-    <ClInclude Include="AbstractFactory\level_factory.h" />
-    <ClInclude Include="AbstractFactory\monster.h" />
-    <ClInclude Include="AbstractFactory\run.h" />
-    <ClInclude Include="Adapter\adapter.h" />
-    <ClInclude Include="Adapter\adapter_mammal.h" />
-    <ClInclude Include="Adapter\run.h" />
-    <ClInclude Include="Bridge\bridge.h" />
-    <ClInclude Include="Bridge\run.h" />
-    <ClInclude Include="Builder\builder.h" />
-    <ClInclude Include="Builder\run.h" />
-    <ClInclude Include="Command\command.h" />
-    <ClInclude Include="Command\run.h" />
-    <ClInclude Include="Composite\catering.h" />
-    <ClInclude Include="Composite\composite.h" />
-    <ClInclude Include="Composite\run.h" />
-    <ClInclude Include="Flyweight\flyweight.h" />
-    <ClInclude Include="Flyweight\run.h" />
-    <ClInclude Include="Iterator\iterator.h" />
-    <ClInclude Include="Iterator\list.h" />
-    <ClInclude Include="Iterator\monster.h" />
-    <ClInclude Include="Iterator\run.h" />
-    <ClInclude Include="Observer\observer.h" />
-    <ClInclude Include="Observer\run.h" />
-    <ClInclude Include="Prototype\prototype.h" />
-    <ClInclude Include="Prototype\run.h" />
-    <ClInclude Include="State\run.h" />
-    <ClInclude Include="State\state.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\README.md" />
-    <None Include="template.zip" />
+    <ClInclude Include="pattern_structure_generator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
