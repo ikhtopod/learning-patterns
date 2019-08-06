@@ -32,6 +32,7 @@ CreateRunFileH(const std::string& patternName) {
 	ostr << "#include \"" << small << ".h\"" << "\n\n";
 	ostr << "namespace " << patternName << " {" << "\n\n";
 	ostr << "void Run();" << "\n\n";
+	ostr << "}" << "\n\n";
 	ostr << "#endif // !" << big << "_RUN_H" << "\n";
 
 	std::ofstream file { patternName + "/run.h", std::ofstream::out };
