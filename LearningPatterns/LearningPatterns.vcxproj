@@ -147,6 +147,8 @@
     <ClCompile Include="Composite\catering.cpp" />
     <ClCompile Include="Composite\composite.cpp" />
     <ClCompile Include="Composite\run.cpp" />
+    <ClCompile Include="Decorator\decorator.cpp" />
+    <ClCompile Include="Decorator\run.cpp" />
     <ClCompile Include="Flyweight\flyweight.cpp" />
     <ClCompile Include="Flyweight\run.cpp" />
     <ClCompile Include="Iterator\iterator.cpp" />
@@ -180,6 +182,8 @@
     <ClInclude Include="Composite\catering.h" />
     <ClInclude Include="Composite\composite.h" />
     <ClInclude Include="Composite\run.h" />
+    <ClInclude Include="Decorator\decorator.h" />
+    <ClInclude Include="Decorator\run.h" />
     <ClInclude Include="Flyweight\flyweight.h" />
     <ClInclude Include="Flyweight\run.h" />
     <ClInclude Include="Iterator\iterator.h" />

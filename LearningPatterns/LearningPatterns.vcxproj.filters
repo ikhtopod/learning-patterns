@@ -85,6 +85,12 @@
     <Filter Include="Файлы заголовков\ChainOfResponsibility">
       <UniqueIdentifier>{55df4af2-baa7-451f-84f6-c04377c17915}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Decorator">
+      <UniqueIdentifier>{aa46f7c0-2e99-44e5-91ee-cd15e0c6ef57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Decorator">
+      <UniqueIdentifier>{9b5ede5c-66f4-4fbf-86da-770fd3bfd228}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -180,6 +186,12 @@
     <ClCompile Include="ChainOfResponsibility\chainofresponsibility.cpp">
       <Filter>Исходные файлы\ChainOfResponsibility</Filter>
     </ClCompile>
+    <ClCompile Include="Decorator\decorator.cpp">
+      <Filter>Исходные файлы\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Decorator\run.cpp">
+      <Filter>Исходные файлы\Decorator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -271,6 +283,12 @@
     </ClInclude>
     <ClInclude Include="ChainOfResponsibility\run.h">
       <Filter>Файлы заголовков\ChainOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator\decorator.h">
+      <Filter>Файлы заголовков\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator\run.h">
+      <Filter>Файлы заголовков\Decorator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

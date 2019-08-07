@@ -12,10 +12,11 @@
 #include "Observer/run.h"
 #include "Builder/run.h"
 #include "ChainOfResponsibility/run.h"
+#include "Decorator/run.h"
 
 void initPatterns() {
 	PatternStructureGenerator psg { PatternStructureGenerator::SetOfString {} };
-	psg.AddPatternName("ChainOfResponsibility");
+	psg.AddPatternName("Decorator");
 	psg.Generate();
 }
 
@@ -32,7 +33,8 @@ int main() {
 	// Adapter::Run();
 	// Bridge::Run();
 	// Builder::Run();
-	ChainOfResponsibility::Run();
+	// ChainOfResponsibility::Run();
+	Decorator::Run();
 
 	return 0;
 }
