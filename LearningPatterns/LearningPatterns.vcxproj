@@ -149,6 +149,10 @@
     <ClCompile Include="Composite\run.cpp" />
     <ClCompile Include="Decorator\decorator.cpp" />
     <ClCompile Include="Decorator\run.cpp" />
+    <ClCompile Include="Facade\facade.cpp" />
+    <ClCompile Include="Facade\run.cpp" />
+    <ClCompile Include="FactoryMethod\factorymethod.cpp" />
+    <ClCompile Include="FactoryMethod\run.cpp" />
     <ClCompile Include="Flyweight\flyweight.cpp" />
     <ClCompile Include="Flyweight\run.cpp" />
     <ClCompile Include="Iterator\iterator.cpp" />
@@ -184,6 +188,10 @@
     <ClInclude Include="Composite\run.h" />
     <ClInclude Include="Decorator\decorator.h" />
     <ClInclude Include="Decorator\run.h" />
+    <ClInclude Include="Facade\facade.h" />
+    <ClInclude Include="Facade\run.h" />
+    <ClInclude Include="FactoryMethod\factorymethod.h" />
+    <ClInclude Include="FactoryMethod\run.h" />
     <ClInclude Include="Flyweight\flyweight.h" />
     <ClInclude Include="Flyweight\run.h" />
     <ClInclude Include="Iterator\iterator.h" />

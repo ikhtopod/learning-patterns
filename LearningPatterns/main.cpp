@@ -13,10 +13,13 @@
 #include "Builder/run.h"
 #include "ChainOfResponsibility/run.h"
 #include "Decorator/run.h"
+#include "Facade/run.h"
+#include "FactoryMethod/run.h"
 
 void initPatterns() {
 	PatternStructureGenerator psg { PatternStructureGenerator::SetOfString {} };
-	psg.AddPatternName("Decorator");
+	psg.AddPatternName("Facade");
+	psg.AddPatternName("FactoryMethod");
 	psg.Generate();
 }
 
@@ -34,7 +37,9 @@ int main() {
 	// Bridge::Run();
 	// Builder::Run();
 	// ChainOfResponsibility::Run();
-	Decorator::Run();
+	// Decorator::Run();
+	Facade::Run();
+	FactoryMethod::Run();
 
 	return 0;
 }

@@ -91,6 +91,18 @@
     <Filter Include="Исходные файлы\Decorator">
       <UniqueIdentifier>{9b5ede5c-66f4-4fbf-86da-770fd3bfd228}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\FactoryMethod">
+      <UniqueIdentifier>{87e79aea-2264-4d0f-ada2-5bb3d07735b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\FactoryMethod">
+      <UniqueIdentifier>{183b7e23-2cb9-4c96-93fd-14be14dfe0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Facade">
+      <UniqueIdentifier>{d889684c-7d39-4c02-828d-6782a9b9dfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Facade">
+      <UniqueIdentifier>{5d75b6d3-5081-4f05-b164-d95fe1d189cd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -192,6 +204,18 @@
     <ClCompile Include="Decorator\run.cpp">
       <Filter>Исходные файлы\Decorator</Filter>
     </ClCompile>
+    <ClCompile Include="FactoryMethod\factorymethod.cpp">
+      <Filter>Исходные файлы\FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod\run.cpp">
+      <Filter>Исходные файлы\FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="Facade\facade.cpp">
+      <Filter>Исходные файлы\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="Facade\run.cpp">
+      <Filter>Исходные файлы\Facade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -289,6 +313,18 @@
     </ClInclude>
     <ClInclude Include="Decorator\run.h">
       <Filter>Файлы заголовков\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\factorymethod.h">
+      <Filter>Файлы заголовков\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\run.h">
+      <Filter>Файлы заголовков\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Facade\facade.h">
+      <Filter>Файлы заголовков\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="Facade\run.h">
+      <Filter>Файлы заголовков\Facade</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
