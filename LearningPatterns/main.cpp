@@ -15,11 +15,13 @@
 #include "Decorator/run.h"
 #include "Facade/run.h"
 #include "FactoryMethod/run.h"
+#include "Interpreter/run.h"
 
 void initPatterns() {
 	PatternStructureGenerator psg { PatternStructureGenerator::SetOfString {} };
 	psg.AddPatternName("Facade");
 	psg.AddPatternName("FactoryMethod");
+	psg.AddPatternName("Interpreter");
 	psg.Generate();
 }
 
@@ -40,6 +42,7 @@ int main() {
 	// Decorator::Run();
 	Facade::Run();
 	FactoryMethod::Run();
+	Interpreter::Run();
 
 	return 0;
 }

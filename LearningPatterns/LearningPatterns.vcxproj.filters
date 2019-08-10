@@ -103,6 +103,12 @@
     <Filter Include="Исходные файлы\Facade">
       <UniqueIdentifier>{5d75b6d3-5081-4f05-b164-d95fe1d189cd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Interpreter">
+      <UniqueIdentifier>{f227f8e1-40aa-455b-8628-6fd0f4b939de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Interpreter">
+      <UniqueIdentifier>{a500f50a-0989-4e19-9950-78bf00951039}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -216,6 +222,12 @@
     <ClCompile Include="Facade\run.cpp">
       <Filter>Исходные файлы\Facade</Filter>
     </ClCompile>
+    <ClCompile Include="Interpreter\run.cpp">
+      <Filter>Исходные файлы\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpreter\interpreter.cpp">
+      <Filter>Исходные файлы\Interpreter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -325,6 +337,12 @@
     </ClInclude>
     <ClInclude Include="Facade\run.h">
       <Filter>Файлы заголовков\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter\interpreter.h">
+      <Filter>Файлы заголовков\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter\run.h">
+      <Filter>Файлы заголовков\Interpreter</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -155,6 +155,8 @@
     <ClCompile Include="FactoryMethod\run.cpp" />
     <ClCompile Include="Flyweight\flyweight.cpp" />
     <ClCompile Include="Flyweight\run.cpp" />
+    <ClCompile Include="Interpreter\interpreter.cpp" />
+    <ClCompile Include="Interpreter\run.cpp" />
     <ClCompile Include="Iterator\iterator.cpp" />
     <ClCompile Include="Iterator\list.cpp" />
     <ClCompile Include="Iterator\monster.cpp" />
@@ -194,6 +196,8 @@
     <ClInclude Include="FactoryMethod\run.h" />
     <ClInclude Include="Flyweight\flyweight.h" />
     <ClInclude Include="Flyweight\run.h" />
+    <ClInclude Include="Interpreter\interpreter.h" />
+    <ClInclude Include="Interpreter\run.h" />
     <ClInclude Include="Iterator\iterator.h" />
     <ClInclude Include="Iterator\list.h" />
     <ClInclude Include="Iterator\monster.h" />
