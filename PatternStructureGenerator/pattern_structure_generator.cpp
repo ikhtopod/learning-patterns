@@ -132,5 +132,7 @@ void PatternStructureGenerator::Generate() const {
 
 		CreateRunFile(patternName);
 		CreatePatterFile(patternName);
+
+		std::cout << "The structure for the " << patternName << "pattern was generated" << std::endl;
 	}
 }
