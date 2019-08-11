@@ -162,6 +162,8 @@
     <ClCompile Include="Iterator\monster.cpp" />
     <ClCompile Include="Iterator\run.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mediator\mediator.cpp" />
+    <ClCompile Include="Mediator\run.cpp" />
     <ClCompile Include="Observer\observer.cpp" />
     <ClCompile Include="Observer\run.cpp" />
     <ClCompile Include="Prototype\prototype.cpp" />
@@ -202,6 +204,8 @@
     <ClInclude Include="Iterator\list.h" />
     <ClInclude Include="Iterator\monster.h" />
     <ClInclude Include="Iterator\run.h" />
+    <ClInclude Include="Mediator\mediator.h" />
+    <ClInclude Include="Mediator\run.h" />
     <ClInclude Include="Observer\observer.h" />
     <ClInclude Include="Observer\run.h" />
     <ClInclude Include="Prototype\prototype.h" />

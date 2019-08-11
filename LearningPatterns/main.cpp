@@ -16,12 +16,13 @@
 #include "Facade/run.h"
 #include "FactoryMethod/run.h"
 #include "Interpreter/run.h"
+#include "Mediator/run.h"
 
 void initPatterns() {
 	PatternStructureGenerator psg { PatternStructureGenerator::SetOfString {} };
-	psg.AddPatternName("Facade");
 	psg.AddPatternName("FactoryMethod");
 	psg.AddPatternName("Interpreter");
+	psg.AddPatternName("Mediator");
 	psg.Generate();
 }
 
@@ -40,9 +41,10 @@ int main() {
 	// Builder::Run();
 	// ChainOfResponsibility::Run();
 	// Decorator::Run();
-	Facade::Run();
+	// Facade::Run();
 	FactoryMethod::Run();
 	Interpreter::Run();
+	Mediator::Run();
 
 	return 0;
 }

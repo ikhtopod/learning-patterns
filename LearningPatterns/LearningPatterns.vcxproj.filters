@@ -109,6 +109,12 @@
     <Filter Include="Файлы заголовков\Interpreter">
       <UniqueIdentifier>{a500f50a-0989-4e19-9950-78bf00951039}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Mediator">
+      <UniqueIdentifier>{a9a39e5f-2c70-4c99-bc79-0077fb3a6090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Mediator">
+      <UniqueIdentifier>{cc3023b5-6b73-43a9-b4e5-c1c811784301}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -228,6 +234,12 @@
     <ClCompile Include="Interpreter\interpreter.cpp">
       <Filter>Исходные файлы\Interpreter</Filter>
     </ClCompile>
+    <ClCompile Include="Mediator\mediator.cpp">
+      <Filter>Исходные файлы\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator\run.cpp">
+      <Filter>Исходные файлы\Mediator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -343,6 +355,12 @@
     </ClInclude>
     <ClInclude Include="Interpreter\run.h">
       <Filter>Файлы заголовков\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator\run.h">
+      <Filter>Файлы заголовков\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator\mediator.h">
+      <Filter>Файлы заголовков\Mediator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
