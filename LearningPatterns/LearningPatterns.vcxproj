@@ -170,6 +170,8 @@
     <ClCompile Include="Observer\run.cpp" />
     <ClCompile Include="Prototype\prototype.cpp" />
     <ClCompile Include="Prototype\run.cpp" />
+    <ClCompile Include="Proxy\proxy.cpp" />
+    <ClCompile Include="Proxy\run.cpp" />
     <ClCompile Include="State\run.cpp" />
     <ClCompile Include="State\state.cpp" />
   </ItemGroup>
@@ -214,6 +216,8 @@
     <ClInclude Include="Observer\run.h" />
     <ClInclude Include="Prototype\prototype.h" />
     <ClInclude Include="Prototype\run.h" />
+    <ClInclude Include="Proxy\proxy.h" />
+    <ClInclude Include="Proxy\run.h" />
     <ClInclude Include="State\run.h" />
     <ClInclude Include="State\state.h" />
   </ItemGroup>

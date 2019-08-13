@@ -121,6 +121,12 @@
     <Filter Include="Файлы заголовков\Memento">
       <UniqueIdentifier>{447aecd8-dd2c-4a25-882a-a4c68b1de96a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Proxy">
+      <UniqueIdentifier>{74c7a369-5c6b-4bba-b1b2-b0ebd74904dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Proxy">
+      <UniqueIdentifier>{62566df5-d223-4f92-b475-9b1b90800004}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -252,6 +258,12 @@
     <ClCompile Include="Memento\run.cpp">
       <Filter>Исходные файлы\Memento</Filter>
     </ClCompile>
+    <ClCompile Include="Proxy\proxy.cpp">
+      <Filter>Исходные файлы\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy\run.cpp">
+      <Filter>Исходные файлы\Proxy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -373,6 +385,12 @@
     </ClInclude>
     <ClInclude Include="Mediator\mediator.h">
       <Filter>Файлы заголовков\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy\proxy.h">
+      <Filter>Файлы заголовков\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy\run.h">
+      <Filter>Файлы заголовков\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="Memento\run.h">
       <Filter>Файлы заголовков\Memento</Filter>

@@ -18,6 +18,7 @@
 #include "Interpreter/run.h"
 #include "Mediator/run.h"
 #include "Memento/run.h"
+#include "Proxy/run.h"
 
 void initPatterns() {
 	PatternStructureGenerator psg { PatternStructureGenerator::SetOfString {} };
@@ -25,6 +26,7 @@ void initPatterns() {
 	psg.AddPatternName("Interpreter");
 	psg.AddPatternName("Mediator");
 	psg.AddPatternName("Memento");
+	psg.AddPatternName("Proxy");
 	psg.Generate();
 }
 
@@ -48,6 +50,7 @@ int main() {
 	Interpreter::Run();
 	Mediator::Run();
 	Memento::Run();
+	Proxy::Run();
 
 	return 0;
 }
