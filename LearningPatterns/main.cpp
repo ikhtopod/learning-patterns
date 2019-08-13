@@ -17,12 +17,14 @@
 #include "FactoryMethod/run.h"
 #include "Interpreter/run.h"
 #include "Mediator/run.h"
+#include "Memento/run.h"
 
 void initPatterns() {
 	PatternStructureGenerator psg { PatternStructureGenerator::SetOfString {} };
 	psg.AddPatternName("FactoryMethod");
 	psg.AddPatternName("Interpreter");
 	psg.AddPatternName("Mediator");
+	psg.AddPatternName("Memento");
 	psg.Generate();
 }
 
@@ -45,6 +47,7 @@ int main() {
 	FactoryMethod::Run();
 	Interpreter::Run();
 	Mediator::Run();
+	Memento::Run();
 
 	return 0;
 }
