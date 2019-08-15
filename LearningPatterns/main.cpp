@@ -20,6 +20,7 @@
 #include "Memento/run.h"
 #include "Proxy/run.h"
 #include "TemplateMethod/run.h"
+#include "Singleton/run.h"
 
 void initPatterns() {
 	PatternStructureGenerator psg { PatternStructureGenerator::SetOfString {} };
@@ -29,6 +30,7 @@ void initPatterns() {
 	psg.AddPatternName("Memento");
 	psg.AddPatternName("Proxy");
 	psg.AddPatternName("TemplateMethod");
+	psg.AddPatternName("Singleton");
 	psg.Generate();
 }
 
@@ -54,6 +56,7 @@ int main() {
 	Memento::Run();
 	Proxy::Run();
 	TemplateMethod::Run();
+	Singleton::Run();
 
 	return 0;
 }
