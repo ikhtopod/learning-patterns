@@ -13,143 +13,149 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Исходные файлы\AbstractFactory">
+    <Filter Include="Исходные файлы\GoF">
+      <UniqueIdentifier>{c9710d81-4902-428d-ac76-ec861b606962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GoF\AbstractFactory">
       <UniqueIdentifier>{90a1f4b0-b860-403f-962d-0cf6314f327c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\AbstractFactory">
-      <UniqueIdentifier>{a1748660-f656-40ee-9ad3-7cb35009231f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Composite">
-      <UniqueIdentifier>{a8dfe412-4162-4599-ba97-22b1d2b3c1de}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Composite">
-      <UniqueIdentifier>{8ffd5df5-774a-4484-b2a2-4584b3c9295a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Iterator">
-      <UniqueIdentifier>{998269be-43f5-4120-9582-85a955eada6d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Iterator">
-      <UniqueIdentifier>{4cc40998-512b-4474-ba38-8d848f6fa15e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Prototype">
-      <UniqueIdentifier>{1b4fdaaf-d45b-4c35-bb06-cd693c973b85}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Prototype">
-      <UniqueIdentifier>{a41de844-35b8-4593-b3ee-df690952ba4f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Command">
-      <UniqueIdentifier>{5402e619-cae2-44ac-80d6-c64d8d08e867}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Command">
-      <UniqueIdentifier>{9474654d-4323-4d57-89ca-c2dd5c8caf07}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Flyweight">
-      <UniqueIdentifier>{6687aa90-cedc-40b9-9548-8013b7abc248}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Flyweight">
-      <UniqueIdentifier>{f9e0ba18-76cb-4872-b31c-f89786fff3d5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\State">
-      <UniqueIdentifier>{ea08ac24-9687-45f7-a58e-a0f1799bad1a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\State">
-      <UniqueIdentifier>{d7a76ba0-f3f2-4719-9633-0cb114a7fbd6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Adapter">
+    <Filter Include="Исходные файлы\GoF\Adapter">
       <UniqueIdentifier>{eb920154-53e7-4f92-8df9-c9da202a49ba}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Adapter">
-      <UniqueIdentifier>{a5d3dc8b-4b54-4e80-809f-425db991ca8e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Bridge">
+    <Filter Include="Исходные файлы\GoF\Bridge">
       <UniqueIdentifier>{5772dc64-0410-4529-9d1c-bf85d5f7a8ab}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Bridge">
-      <UniqueIdentifier>{2aa8fc5d-0079-4d41-a38d-cc144a30f48c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Observer">
-      <UniqueIdentifier>{6944e7d4-7695-418f-bff4-1005c313cfaa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Observer">
-      <UniqueIdentifier>{5284989a-6c78-4276-9d5a-58af7b01af92}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Builder">
+    <Filter Include="Исходные файлы\GoF\Builder">
       <UniqueIdentifier>{fc8e1ded-3c8e-4c40-b641-59d6f8a34ca7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Builder">
-      <UniqueIdentifier>{5b232884-478c-4072-8316-825c3fa51565}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\ChainOfResponsibility">
+    <Filter Include="Исходные файлы\GoF\ChainOfResponsibility">
       <UniqueIdentifier>{8753fed6-e6c2-49a6-88f3-cd3bcddfae76}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\ChainOfResponsibility">
-      <UniqueIdentifier>{55df4af2-baa7-451f-84f6-c04377c17915}</UniqueIdentifier>
+    <Filter Include="Исходные файлы\GoF\Command">
+      <UniqueIdentifier>{5402e619-cae2-44ac-80d6-c64d8d08e867}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Decorator">
-      <UniqueIdentifier>{aa46f7c0-2e99-44e5-91ee-cd15e0c6ef57}</UniqueIdentifier>
+    <Filter Include="Исходные файлы\GoF\Composite">
+      <UniqueIdentifier>{a8dfe412-4162-4599-ba97-22b1d2b3c1de}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\Decorator">
+    <Filter Include="Исходные файлы\GoF\Decorator">
       <UniqueIdentifier>{9b5ede5c-66f4-4fbf-86da-770fd3bfd228}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\FactoryMethod">
-      <UniqueIdentifier>{87e79aea-2264-4d0f-ada2-5bb3d07735b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\FactoryMethod">
-      <UniqueIdentifier>{183b7e23-2cb9-4c96-93fd-14be14dfe0ed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Facade">
-      <UniqueIdentifier>{d889684c-7d39-4c02-828d-6782a9b9dfe0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Facade">
+    <Filter Include="Исходные файлы\GoF\Facade">
       <UniqueIdentifier>{5d75b6d3-5081-4f05-b164-d95fe1d189cd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\Interpreter">
+    <Filter Include="Исходные файлы\GoF\FactoryMethod">
+      <UniqueIdentifier>{87e79aea-2264-4d0f-ada2-5bb3d07735b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GoF\Flyweight">
+      <UniqueIdentifier>{6687aa90-cedc-40b9-9548-8013b7abc248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GoF\Interpreter">
       <UniqueIdentifier>{f227f8e1-40aa-455b-8628-6fd0f4b939de}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Interpreter">
-      <UniqueIdentifier>{a500f50a-0989-4e19-9950-78bf00951039}</UniqueIdentifier>
+    <Filter Include="Исходные файлы\GoF\Iterator">
+      <UniqueIdentifier>{998269be-43f5-4120-9582-85a955eada6d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\Mediator">
+    <Filter Include="Исходные файлы\GoF\Mediator">
       <UniqueIdentifier>{a9a39e5f-2c70-4c99-bc79-0077fb3a6090}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Mediator">
-      <UniqueIdentifier>{cc3023b5-6b73-43a9-b4e5-c1c811784301}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Memento">
+    <Filter Include="Исходные файлы\GoF\Memento">
       <UniqueIdentifier>{94c024d0-9cac-4a75-9f96-aa4f190f386d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Memento">
-      <UniqueIdentifier>{447aecd8-dd2c-4a25-882a-a4c68b1de96a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Proxy">
-      <UniqueIdentifier>{74c7a369-5c6b-4bba-b1b2-b0ebd74904dd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Proxy">
-      <UniqueIdentifier>{62566df5-d223-4f92-b475-9b1b90800004}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\TemplateMethod">
-      <UniqueIdentifier>{1e32ed71-efb4-46dd-97d7-75f42cf4da1d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\TemplateMethod">
-      <UniqueIdentifier>{8eda0ace-7d59-4b7a-b37d-9a83b614ca9d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Singleton">
-      <UniqueIdentifier>{2f47b765-1148-4f64-872e-df5b3279265c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Singleton">
-      <UniqueIdentifier>{3c4ba935-23b8-410f-8ecd-7fcf43c62679}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Strategy">
-      <UniqueIdentifier>{786f9d96-025b-40d4-97d4-f05bc7b214cb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Strategy">
-      <UniqueIdentifier>{96d026c0-506f-4cba-9f61-45402e75cff6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Visitor">
+    <Filter Include="Исходные файлы\GoF\Visitor">
       <UniqueIdentifier>{6ca72375-70ab-4b5b-8675-c47b1f6e3e01}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Visitor">
+    <Filter Include="Исходные файлы\GoF\Strategy">
+      <UniqueIdentifier>{786f9d96-025b-40d4-97d4-f05bc7b214cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GoF\Singleton">
+      <UniqueIdentifier>{3c4ba935-23b8-410f-8ecd-7fcf43c62679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GoF\TemplateMethod">
+      <UniqueIdentifier>{1e32ed71-efb4-46dd-97d7-75f42cf4da1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GoF\Observer">
+      <UniqueIdentifier>{6944e7d4-7695-418f-bff4-1005c313cfaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GoF\Prototype">
+      <UniqueIdentifier>{1b4fdaaf-d45b-4c35-bb06-cd693c973b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GoF\Proxy">
+      <UniqueIdentifier>{62566df5-d223-4f92-b475-9b1b90800004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GoF\State">
+      <UniqueIdentifier>{ea08ac24-9687-45f7-a58e-a0f1799bad1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF">
+      <UniqueIdentifier>{525b7d9b-2401-4178-9a98-4c7e6a795dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Memento">
+      <UniqueIdentifier>{447aecd8-dd2c-4a25-882a-a4c68b1de96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\AbstractFactory">
+      <UniqueIdentifier>{a1748660-f656-40ee-9ad3-7cb35009231f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Adapter">
+      <UniqueIdentifier>{a5d3dc8b-4b54-4e80-809f-425db991ca8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Bridge">
+      <UniqueIdentifier>{2aa8fc5d-0079-4d41-a38d-cc144a30f48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Builder">
+      <UniqueIdentifier>{5b232884-478c-4072-8316-825c3fa51565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\ChainOfResponsibility">
+      <UniqueIdentifier>{55df4af2-baa7-451f-84f6-c04377c17915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Command">
+      <UniqueIdentifier>{9474654d-4323-4d57-89ca-c2dd5c8caf07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Composite">
+      <UniqueIdentifier>{8ffd5df5-774a-4484-b2a2-4584b3c9295a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Decorator">
+      <UniqueIdentifier>{aa46f7c0-2e99-44e5-91ee-cd15e0c6ef57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Facade">
+      <UniqueIdentifier>{d889684c-7d39-4c02-828d-6782a9b9dfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\FactoryMethod">
+      <UniqueIdentifier>{183b7e23-2cb9-4c96-93fd-14be14dfe0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Flyweight">
+      <UniqueIdentifier>{f9e0ba18-76cb-4872-b31c-f89786fff3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Interpreter">
+      <UniqueIdentifier>{a500f50a-0989-4e19-9950-78bf00951039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Iterator">
+      <UniqueIdentifier>{4cc40998-512b-4474-ba38-8d848f6fa15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Mediator">
+      <UniqueIdentifier>{cc3023b5-6b73-43a9-b4e5-c1c811784301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Visitor">
       <UniqueIdentifier>{6e5cf283-755d-4df5-910a-e5ed5a9233e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Strategy">
+      <UniqueIdentifier>{96d026c0-506f-4cba-9f61-45402e75cff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Singleton">
+      <UniqueIdentifier>{2f47b765-1148-4f64-872e-df5b3279265c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\TemplateMethod">
+      <UniqueIdentifier>{8eda0ace-7d59-4b7a-b37d-9a83b614ca9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Observer">
+      <UniqueIdentifier>{5284989a-6c78-4276-9d5a-58af7b01af92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Prototype">
+      <UniqueIdentifier>{a41de844-35b8-4593-b3ee-df690952ba4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\Proxy">
+      <UniqueIdentifier>{74c7a369-5c6b-4bba-b1b2-b0ebd74904dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GoF\State">
+      <UniqueIdentifier>{d7a76ba0-f3f2-4719-9633-0cb114a7fbd6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -157,318 +163,318 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="AbstractFactory\monster.cpp">
-      <Filter>Исходные файлы\AbstractFactory</Filter>
+      <Filter>Исходные файлы\GoF\AbstractFactory</Filter>
     </ClCompile>
     <ClCompile Include="AbstractFactory\level_factory.cpp">
-      <Filter>Исходные файлы\AbstractFactory</Filter>
+      <Filter>Исходные файлы\GoF\AbstractFactory</Filter>
     </ClCompile>
     <ClCompile Include="AbstractFactory\level.cpp">
-      <Filter>Исходные файлы\AbstractFactory</Filter>
+      <Filter>Исходные файлы\GoF\AbstractFactory</Filter>
     </ClCompile>
     <ClCompile Include="Composite\composite.cpp">
-      <Filter>Исходные файлы\Composite</Filter>
+      <Filter>Исходные файлы\GoF\Composite</Filter>
     </ClCompile>
     <ClCompile Include="Composite\catering.cpp">
-      <Filter>Исходные файлы\Composite</Filter>
+      <Filter>Исходные файлы\GoF\Composite</Filter>
     </ClCompile>
     <ClCompile Include="Iterator\list.cpp">
-      <Filter>Исходные файлы\Iterator</Filter>
+      <Filter>Исходные файлы\GoF\Iterator</Filter>
     </ClCompile>
     <ClCompile Include="Iterator\iterator.cpp">
-      <Filter>Исходные файлы\Iterator</Filter>
+      <Filter>Исходные файлы\GoF\Iterator</Filter>
     </ClCompile>
     <ClCompile Include="Iterator\monster.cpp">
-      <Filter>Исходные файлы\Iterator</Filter>
+      <Filter>Исходные файлы\GoF\Iterator</Filter>
     </ClCompile>
     <ClCompile Include="Prototype\prototype.cpp">
-      <Filter>Исходные файлы\Prototype</Filter>
+      <Filter>Исходные файлы\GoF\Prototype</Filter>
     </ClCompile>
     <ClCompile Include="AbstractFactory\run.cpp">
-      <Filter>Исходные файлы\AbstractFactory</Filter>
+      <Filter>Исходные файлы\GoF\AbstractFactory</Filter>
     </ClCompile>
     <ClCompile Include="Composite\run.cpp">
-      <Filter>Исходные файлы\Composite</Filter>
+      <Filter>Исходные файлы\GoF\Composite</Filter>
     </ClCompile>
     <ClCompile Include="Iterator\run.cpp">
-      <Filter>Исходные файлы\Iterator</Filter>
+      <Filter>Исходные файлы\GoF\Iterator</Filter>
     </ClCompile>
     <ClCompile Include="Prototype\run.cpp">
-      <Filter>Исходные файлы\Prototype</Filter>
+      <Filter>Исходные файлы\GoF\Prototype</Filter>
     </ClCompile>
     <ClCompile Include="Command\run.cpp">
-      <Filter>Исходные файлы\Command</Filter>
+      <Filter>Исходные файлы\GoF\Command</Filter>
     </ClCompile>
     <ClCompile Include="Command\command.cpp">
-      <Filter>Исходные файлы\Command</Filter>
+      <Filter>Исходные файлы\GoF\Command</Filter>
     </ClCompile>
     <ClCompile Include="Flyweight\flyweight.cpp">
-      <Filter>Исходные файлы\Flyweight</Filter>
+      <Filter>Исходные файлы\GoF\Flyweight</Filter>
     </ClCompile>
     <ClCompile Include="Flyweight\run.cpp">
-      <Filter>Исходные файлы\Flyweight</Filter>
+      <Filter>Исходные файлы\GoF\Flyweight</Filter>
     </ClCompile>
     <ClCompile Include="State\run.cpp">
-      <Filter>Исходные файлы\State</Filter>
+      <Filter>Исходные файлы\GoF\State</Filter>
     </ClCompile>
     <ClCompile Include="State\state.cpp">
-      <Filter>Исходные файлы\State</Filter>
+      <Filter>Исходные файлы\GoF\State</Filter>
     </ClCompile>
     <ClCompile Include="Adapter\adapter.cpp">
-      <Filter>Исходные файлы\Adapter</Filter>
+      <Filter>Исходные файлы\GoF\Adapter</Filter>
     </ClCompile>
     <ClCompile Include="Adapter\run.cpp">
-      <Filter>Исходные файлы\Adapter</Filter>
+      <Filter>Исходные файлы\GoF\Adapter</Filter>
     </ClCompile>
     <ClCompile Include="Adapter\adapter_mammal.cpp">
-      <Filter>Исходные файлы\Adapter</Filter>
+      <Filter>Исходные файлы\GoF\Adapter</Filter>
     </ClCompile>
     <ClCompile Include="Bridge\bridge.cpp">
-      <Filter>Исходные файлы\Bridge</Filter>
+      <Filter>Исходные файлы\GoF\Bridge</Filter>
     </ClCompile>
     <ClCompile Include="Bridge\run.cpp">
-      <Filter>Исходные файлы\Bridge</Filter>
+      <Filter>Исходные файлы\GoF\Bridge</Filter>
     </ClCompile>
     <ClCompile Include="Observer\observer.cpp">
-      <Filter>Исходные файлы\Observer</Filter>
+      <Filter>Исходные файлы\GoF\Observer</Filter>
     </ClCompile>
     <ClCompile Include="Observer\run.cpp">
-      <Filter>Исходные файлы\Observer</Filter>
+      <Filter>Исходные файлы\GoF\Observer</Filter>
     </ClCompile>
     <ClCompile Include="Builder\builder.cpp">
-      <Filter>Исходные файлы\Builder</Filter>
+      <Filter>Исходные файлы\GoF\Builder</Filter>
     </ClCompile>
     <ClCompile Include="Builder\run.cpp">
-      <Filter>Исходные файлы\Builder</Filter>
+      <Filter>Исходные файлы\GoF\Builder</Filter>
     </ClCompile>
     <ClCompile Include="ChainOfResponsibility\run.cpp">
-      <Filter>Исходные файлы\ChainOfResponsibility</Filter>
+      <Filter>Исходные файлы\GoF\ChainOfResponsibility</Filter>
     </ClCompile>
     <ClCompile Include="ChainOfResponsibility\chainofresponsibility.cpp">
-      <Filter>Исходные файлы\ChainOfResponsibility</Filter>
+      <Filter>Исходные файлы\GoF\ChainOfResponsibility</Filter>
     </ClCompile>
     <ClCompile Include="Decorator\decorator.cpp">
-      <Filter>Исходные файлы\Decorator</Filter>
+      <Filter>Исходные файлы\GoF\Decorator</Filter>
     </ClCompile>
     <ClCompile Include="Decorator\run.cpp">
-      <Filter>Исходные файлы\Decorator</Filter>
+      <Filter>Исходные файлы\GoF\Decorator</Filter>
     </ClCompile>
     <ClCompile Include="FactoryMethod\factorymethod.cpp">
-      <Filter>Исходные файлы\FactoryMethod</Filter>
+      <Filter>Исходные файлы\GoF\FactoryMethod</Filter>
     </ClCompile>
     <ClCompile Include="FactoryMethod\run.cpp">
-      <Filter>Исходные файлы\FactoryMethod</Filter>
+      <Filter>Исходные файлы\GoF\FactoryMethod</Filter>
     </ClCompile>
     <ClCompile Include="Facade\facade.cpp">
-      <Filter>Исходные файлы\Facade</Filter>
+      <Filter>Исходные файлы\GoF\Facade</Filter>
     </ClCompile>
     <ClCompile Include="Facade\run.cpp">
-      <Filter>Исходные файлы\Facade</Filter>
+      <Filter>Исходные файлы\GoF\Facade</Filter>
     </ClCompile>
     <ClCompile Include="Interpreter\run.cpp">
-      <Filter>Исходные файлы\Interpreter</Filter>
+      <Filter>Исходные файлы\GoF\Interpreter</Filter>
     </ClCompile>
     <ClCompile Include="Interpreter\interpreter.cpp">
-      <Filter>Исходные файлы\Interpreter</Filter>
+      <Filter>Исходные файлы\GoF\Interpreter</Filter>
     </ClCompile>
     <ClCompile Include="Mediator\mediator.cpp">
-      <Filter>Исходные файлы\Mediator</Filter>
+      <Filter>Исходные файлы\GoF\Mediator</Filter>
     </ClCompile>
     <ClCompile Include="Mediator\run.cpp">
-      <Filter>Исходные файлы\Mediator</Filter>
+      <Filter>Исходные файлы\GoF\Mediator</Filter>
     </ClCompile>
     <ClCompile Include="Memento\memento.cpp">
-      <Filter>Исходные файлы\Memento</Filter>
+      <Filter>Исходные файлы\GoF\Memento</Filter>
     </ClCompile>
     <ClCompile Include="Memento\run.cpp">
-      <Filter>Исходные файлы\Memento</Filter>
+      <Filter>Исходные файлы\GoF\Memento</Filter>
     </ClCompile>
     <ClCompile Include="Proxy\proxy.cpp">
-      <Filter>Исходные файлы\Proxy</Filter>
+      <Filter>Исходные файлы\GoF\Proxy</Filter>
     </ClCompile>
     <ClCompile Include="Proxy\run.cpp">
-      <Filter>Исходные файлы\Proxy</Filter>
+      <Filter>Исходные файлы\GoF\Proxy</Filter>
     </ClCompile>
     <ClCompile Include="Strategy\run.cpp">
-      <Filter>Исходные файлы\Strategy</Filter>
+      <Filter>Исходные файлы\GoF\Strategy</Filter>
     </ClCompile>
     <ClCompile Include="Strategy\strategy.cpp">
-      <Filter>Исходные файлы\Strategy</Filter>
+      <Filter>Исходные файлы\GoF\Strategy</Filter>
     </ClCompile>
     <ClCompile Include="Singleton\run.cpp">
-      <Filter>Исходные файлы\Singleton</Filter>
+      <Filter>Исходные файлы\GoF\Singleton</Filter>
     </ClCompile>
     <ClCompile Include="Singleton\singleton.cpp">
-      <Filter>Исходные файлы\Singleton</Filter>
+      <Filter>Исходные файлы\GoF\Singleton</Filter>
     </ClCompile>
     <ClCompile Include="TemplateMethod\templatemethod.cpp">
-      <Filter>Исходные файлы\TemplateMethod</Filter>
+      <Filter>Исходные файлы\GoF\TemplateMethod</Filter>
     </ClCompile>
     <ClCompile Include="TemplateMethod\run.cpp">
-      <Filter>Исходные файлы\TemplateMethod</Filter>
+      <Filter>Исходные файлы\GoF\TemplateMethod</Filter>
     </ClCompile>
     <ClCompile Include="Visitor\run.cpp">
-      <Filter>Исходные файлы\Visitor</Filter>
+      <Filter>Исходные файлы\GoF\Visitor</Filter>
     </ClCompile>
     <ClCompile Include="Visitor\visitor.cpp">
-      <Filter>Исходные файлы\Visitor</Filter>
+      <Filter>Исходные файлы\GoF\Visitor</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
-      <Filter>Файлы заголовков\AbstractFactory</Filter>
+      <Filter>Файлы заголовков\GoF\AbstractFactory</Filter>
     </ClInclude>
     <ClInclude Include="AbstractFactory\level.h">
-      <Filter>Файлы заголовков\AbstractFactory</Filter>
+      <Filter>Файлы заголовков\GoF\AbstractFactory</Filter>
     </ClInclude>
     <ClInclude Include="AbstractFactory\level_factory.h">
-      <Filter>Файлы заголовков\AbstractFactory</Filter>
+      <Filter>Файлы заголовков\GoF\AbstractFactory</Filter>
     </ClInclude>
     <ClInclude Include="Composite\composite.h">
-      <Filter>Файлы заголовков\Composite</Filter>
+      <Filter>Файлы заголовков\GoF\Composite</Filter>
     </ClInclude>
     <ClInclude Include="Composite\catering.h">
-      <Filter>Файлы заголовков\Composite</Filter>
+      <Filter>Файлы заголовков\GoF\Composite</Filter>
     </ClInclude>
     <ClInclude Include="Iterator\iterator.h">
-      <Filter>Файлы заголовков\Iterator</Filter>
+      <Filter>Файлы заголовков\GoF\Iterator</Filter>
     </ClInclude>
     <ClInclude Include="Iterator\list.h">
-      <Filter>Файлы заголовков\Iterator</Filter>
+      <Filter>Файлы заголовков\GoF\Iterator</Filter>
     </ClInclude>
     <ClInclude Include="Iterator\monster.h">
-      <Filter>Файлы заголовков\Iterator</Filter>
+      <Filter>Файлы заголовков\GoF\Iterator</Filter>
     </ClInclude>
     <ClInclude Include="Prototype\prototype.h">
-      <Filter>Файлы заголовков\Prototype</Filter>
+      <Filter>Файлы заголовков\GoF\Prototype</Filter>
     </ClInclude>
     <ClInclude Include="AbstractFactory\run.h">
-      <Filter>Файлы заголовков\AbstractFactory</Filter>
+      <Filter>Файлы заголовков\GoF\AbstractFactory</Filter>
     </ClInclude>
     <ClInclude Include="Composite\run.h">
-      <Filter>Файлы заголовков\Composite</Filter>
+      <Filter>Файлы заголовков\GoF\Composite</Filter>
     </ClInclude>
     <ClInclude Include="Iterator\run.h">
-      <Filter>Файлы заголовков\Iterator</Filter>
+      <Filter>Файлы заголовков\GoF\Iterator</Filter>
     </ClInclude>
     <ClInclude Include="Prototype\run.h">
-      <Filter>Файлы заголовков\Prototype</Filter>
+      <Filter>Файлы заголовков\GoF\Prototype</Filter>
     </ClInclude>
     <ClInclude Include="Command\command.h">
-      <Filter>Файлы заголовков\Command</Filter>
+      <Filter>Файлы заголовков\GoF\Command</Filter>
     </ClInclude>
     <ClInclude Include="Command\run.h">
-      <Filter>Файлы заголовков\Command</Filter>
+      <Filter>Файлы заголовков\GoF\Command</Filter>
     </ClInclude>
     <ClInclude Include="Flyweight\flyweight.h">
-      <Filter>Файлы заголовков\Flyweight</Filter>
+      <Filter>Файлы заголовков\GoF\Flyweight</Filter>
     </ClInclude>
     <ClInclude Include="Flyweight\run.h">
-      <Filter>Файлы заголовков\Flyweight</Filter>
+      <Filter>Файлы заголовков\GoF\Flyweight</Filter>
     </ClInclude>
     <ClInclude Include="State\run.h">
-      <Filter>Файлы заголовков\State</Filter>
+      <Filter>Файлы заголовков\GoF\State</Filter>
     </ClInclude>
     <ClInclude Include="State\state.h">
-      <Filter>Файлы заголовков\State</Filter>
+      <Filter>Файлы заголовков\GoF\State</Filter>
     </ClInclude>
     <ClInclude Include="Adapter\adapter.h">
-      <Filter>Файлы заголовков\Adapter</Filter>
+      <Filter>Файлы заголовков\GoF\Adapter</Filter>
     </ClInclude>
     <ClInclude Include="Adapter\run.h">
-      <Filter>Файлы заголовков\Adapter</Filter>
+      <Filter>Файлы заголовков\GoF\Adapter</Filter>
     </ClInclude>
     <ClInclude Include="Adapter\adapter_mammal.h">
-      <Filter>Файлы заголовков\Adapter</Filter>
+      <Filter>Файлы заголовков\GoF\Adapter</Filter>
     </ClInclude>
     <ClInclude Include="Bridge\bridge.h">
-      <Filter>Файлы заголовков\Bridge</Filter>
+      <Filter>Файлы заголовков\GoF\Bridge</Filter>
     </ClInclude>
     <ClInclude Include="Bridge\run.h">
-      <Filter>Файлы заголовков\Bridge</Filter>
+      <Filter>Файлы заголовков\GoF\Bridge</Filter>
     </ClInclude>
     <ClInclude Include="Observer\observer.h">
-      <Filter>Файлы заголовков\Observer</Filter>
+      <Filter>Файлы заголовков\GoF\Observer</Filter>
     </ClInclude>
     <ClInclude Include="Observer\run.h">
-      <Filter>Файлы заголовков\Observer</Filter>
+      <Filter>Файлы заголовков\GoF\Observer</Filter>
     </ClInclude>
     <ClInclude Include="Builder\builder.h">
-      <Filter>Файлы заголовков\Builder</Filter>
+      <Filter>Файлы заголовков\GoF\Builder</Filter>
     </ClInclude>
     <ClInclude Include="Builder\run.h">
-      <Filter>Файлы заголовков\Builder</Filter>
+      <Filter>Файлы заголовков\GoF\Builder</Filter>
     </ClInclude>
     <ClInclude Include="ChainOfResponsibility\chainofresponsibility.h">
-      <Filter>Файлы заголовков\ChainOfResponsibility</Filter>
+      <Filter>Файлы заголовков\GoF\ChainOfResponsibility</Filter>
     </ClInclude>
     <ClInclude Include="ChainOfResponsibility\run.h">
-      <Filter>Файлы заголовков\ChainOfResponsibility</Filter>
+      <Filter>Файлы заголовков\GoF\ChainOfResponsibility</Filter>
     </ClInclude>
     <ClInclude Include="Decorator\decorator.h">
-      <Filter>Файлы заголовков\Decorator</Filter>
+      <Filter>Файлы заголовков\GoF\Decorator</Filter>
     </ClInclude>
     <ClInclude Include="Decorator\run.h">
-      <Filter>Файлы заголовков\Decorator</Filter>
+      <Filter>Файлы заголовков\GoF\Decorator</Filter>
     </ClInclude>
     <ClInclude Include="FactoryMethod\factorymethod.h">
-      <Filter>Файлы заголовков\FactoryMethod</Filter>
+      <Filter>Файлы заголовков\GoF\FactoryMethod</Filter>
     </ClInclude>
     <ClInclude Include="FactoryMethod\run.h">
-      <Filter>Файлы заголовков\FactoryMethod</Filter>
+      <Filter>Файлы заголовков\GoF\FactoryMethod</Filter>
     </ClInclude>
     <ClInclude Include="Facade\facade.h">
-      <Filter>Файлы заголовков\Facade</Filter>
+      <Filter>Файлы заголовков\GoF\Facade</Filter>
     </ClInclude>
     <ClInclude Include="Facade\run.h">
-      <Filter>Файлы заголовков\Facade</Filter>
+      <Filter>Файлы заголовков\GoF\Facade</Filter>
     </ClInclude>
     <ClInclude Include="Interpreter\interpreter.h">
-      <Filter>Файлы заголовков\Interpreter</Filter>
+      <Filter>Файлы заголовков\GoF\Interpreter</Filter>
     </ClInclude>
     <ClInclude Include="Interpreter\run.h">
-      <Filter>Файлы заголовков\Interpreter</Filter>
+      <Filter>Файлы заголовков\GoF\Interpreter</Filter>
     </ClInclude>
     <ClInclude Include="Mediator\run.h">
-      <Filter>Файлы заголовков\Mediator</Filter>
+      <Filter>Файлы заголовков\GoF\Mediator</Filter>
     </ClInclude>
     <ClInclude Include="Mediator\mediator.h">
-      <Filter>Файлы заголовков\Mediator</Filter>
+      <Filter>Файлы заголовков\GoF\Mediator</Filter>
     </ClInclude>
     <ClInclude Include="Proxy\proxy.h">
-      <Filter>Файлы заголовков\Proxy</Filter>
+      <Filter>Файлы заголовков\GoF\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="Proxy\run.h">
-      <Filter>Файлы заголовков\Proxy</Filter>
+      <Filter>Файлы заголовков\GoF\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="Memento\run.h">
-      <Filter>Файлы заголовков\Memento</Filter>
+      <Filter>Файлы заголовков\GoF\Memento</Filter>
     </ClInclude>
     <ClInclude Include="Memento\memento.h">
-      <Filter>Файлы заголовков\Memento</Filter>
+      <Filter>Файлы заголовков\GoF\Memento</Filter>
     </ClInclude>
     <ClInclude Include="TemplateMethod\run.h">
-      <Filter>Файлы заголовков\TemplateMethod</Filter>
+      <Filter>Файлы заголовков\GoF\TemplateMethod</Filter>
     </ClInclude>
     <ClInclude Include="TemplateMethod\templatemethod.h">
-      <Filter>Файлы заголовков\TemplateMethod</Filter>
+      <Filter>Файлы заголовков\GoF\TemplateMethod</Filter>
     </ClInclude>
     <ClInclude Include="Singleton\run.h">
-      <Filter>Файлы заголовков\Singleton</Filter>
+      <Filter>Файлы заголовков\GoF\Singleton</Filter>
     </ClInclude>
     <ClInclude Include="Singleton\singleton.h">
-      <Filter>Файлы заголовков\Singleton</Filter>
+      <Filter>Файлы заголовков\GoF\Singleton</Filter>
     </ClInclude>
     <ClInclude Include="Strategy\run.h">
-      <Filter>Файлы заголовков\Strategy</Filter>
+      <Filter>Файлы заголовков\GoF\Strategy</Filter>
     </ClInclude>
     <ClInclude Include="Strategy\strategy.h">
-      <Filter>Файлы заголовков\Strategy</Filter>
+      <Filter>Файлы заголовков\GoF\Strategy</Filter>
     </ClInclude>
     <ClInclude Include="Visitor\run.h">
-      <Filter>Файлы заголовков\Visitor</Filter>
+      <Filter>Файлы заголовков\GoF\Visitor</Filter>
     </ClInclude>
     <ClInclude Include="Visitor\visitor.h">
-      <Filter>Файлы заголовков\Visitor</Filter>
+      <Filter>Файлы заголовков\GoF\Visitor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
