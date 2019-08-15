@@ -145,6 +145,12 @@
     <Filter Include="Файлы заголовков\Strategy">
       <UniqueIdentifier>{96d026c0-506f-4cba-9f61-45402e75cff6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Visitor">
+      <UniqueIdentifier>{6ca72375-70ab-4b5b-8675-c47b1f6e3e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Visitor">
+      <UniqueIdentifier>{6e5cf283-755d-4df5-910a-e5ed5a9233e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -300,6 +306,12 @@
     <ClCompile Include="TemplateMethod\run.cpp">
       <Filter>Исходные файлы\TemplateMethod</Filter>
     </ClCompile>
+    <ClCompile Include="Visitor\run.cpp">
+      <Filter>Исходные файлы\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitor\visitor.cpp">
+      <Filter>Исходные файлы\Visitor</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -451,6 +463,12 @@
     </ClInclude>
     <ClInclude Include="Strategy\strategy.h">
       <Filter>Файлы заголовков\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor\run.h">
+      <Filter>Файлы заголовков\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor\visitor.h">
+      <Filter>Файлы заголовков\Visitor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

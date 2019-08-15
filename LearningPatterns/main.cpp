@@ -22,6 +22,7 @@
 #include "TemplateMethod/run.h"
 #include "Singleton/run.h"
 #include "Strategy/run.h"
+#include "Visitor/run.h"
 
 void initPatterns() {
 	PatternStructureGenerator psg { PatternStructureGenerator::SetOfString {} };
@@ -33,6 +34,7 @@ void initPatterns() {
 	psg.AddPatternName("TemplateMethod");
 	psg.AddPatternName("Singleton");
 	psg.AddPatternName("Strategy");
+	psg.AddPatternName("Visitor");
 	psg.Generate();
 }
 
@@ -60,6 +62,7 @@ int main() {
 	TemplateMethod::Run();
 	Singleton::Run();
 	Strategy::Run();
+	Visitor::Run();
 
 	return 0;
 }

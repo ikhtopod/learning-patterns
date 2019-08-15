@@ -180,6 +180,8 @@
     <ClCompile Include="Strategy\strategy.cpp" />
     <ClCompile Include="TemplateMethod\run.cpp" />
     <ClCompile Include="TemplateMethod\templatemethod.cpp" />
+    <ClCompile Include="Visitor\run.cpp" />
+    <ClCompile Include="Visitor\visitor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\level.h" />
@@ -232,6 +234,8 @@
     <ClInclude Include="Strategy\strategy.h" />
     <ClInclude Include="TemplateMethod\run.h" />
     <ClInclude Include="TemplateMethod\templatemethod.h" />
+    <ClInclude Include="Visitor\run.h" />
+    <ClInclude Include="Visitor\visitor.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
