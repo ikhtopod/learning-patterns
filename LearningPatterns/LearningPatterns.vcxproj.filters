@@ -127,6 +127,12 @@
     <Filter Include="Исходные файлы\Proxy">
       <UniqueIdentifier>{62566df5-d223-4f92-b475-9b1b90800004}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\TemplateMethod">
+      <UniqueIdentifier>{1e32ed71-efb4-46dd-97d7-75f42cf4da1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\TemplateMethod">
+      <UniqueIdentifier>{8eda0ace-7d59-4b7a-b37d-9a83b614ca9d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -264,6 +270,12 @@
     <ClCompile Include="Proxy\run.cpp">
       <Filter>Исходные файлы\Proxy</Filter>
     </ClCompile>
+    <ClCompile Include="TemplateMethod\templatemethod.cpp">
+      <Filter>Исходные файлы\TemplateMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateMethod\run.cpp">
+      <Filter>Исходные файлы\TemplateMethod</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\monster.h">
@@ -397,6 +409,12 @@
     </ClInclude>
     <ClInclude Include="Memento\memento.h">
       <Filter>Файлы заголовков\Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateMethod\run.h">
+      <Filter>Файлы заголовков\TemplateMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateMethod\templatemethod.h">
+      <Filter>Файлы заголовков\TemplateMethod</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

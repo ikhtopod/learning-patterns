@@ -174,6 +174,8 @@
     <ClCompile Include="Proxy\run.cpp" />
     <ClCompile Include="State\run.cpp" />
     <ClCompile Include="State\state.cpp" />
+    <ClCompile Include="TemplateMethod\run.cpp" />
+    <ClCompile Include="TemplateMethod\templatemethod.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\level.h" />
@@ -220,6 +222,8 @@
     <ClInclude Include="Proxy\run.h" />
     <ClInclude Include="State\run.h" />
     <ClInclude Include="State\state.h" />
+    <ClInclude Include="TemplateMethod\run.h" />
+    <ClInclude Include="TemplateMethod\templatemethod.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
