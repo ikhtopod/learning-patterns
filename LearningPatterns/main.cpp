@@ -21,6 +21,7 @@
 #include "Proxy/run.h"
 #include "TemplateMethod/run.h"
 #include "Singleton/run.h"
+#include "Strategy/run.h"
 
 void initPatterns() {
 	PatternStructureGenerator psg { PatternStructureGenerator::SetOfString {} };
@@ -31,6 +32,7 @@ void initPatterns() {
 	psg.AddPatternName("Proxy");
 	psg.AddPatternName("TemplateMethod");
 	psg.AddPatternName("Singleton");
+	psg.AddPatternName("Strategy");
 	psg.Generate();
 }
 
@@ -57,6 +59,7 @@ int main() {
 	Proxy::Run();
 	TemplateMethod::Run();
 	Singleton::Run();
+	Strategy::Run();
 
 	return 0;
 }

@@ -139,6 +139,12 @@
     <Filter Include="Исходные файлы\Singleton">
       <UniqueIdentifier>{3c4ba935-23b8-410f-8ecd-7fcf43c62679}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Strategy">
+      <UniqueIdentifier>{786f9d96-025b-40d4-97d4-f05bc7b214cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Strategy">
+      <UniqueIdentifier>{96d026c0-506f-4cba-9f61-45402e75cff6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -275,6 +281,12 @@
     </ClCompile>
     <ClCompile Include="Proxy\run.cpp">
       <Filter>Исходные файлы\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\run.cpp">
+      <Filter>Исходные файлы\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\strategy.cpp">
+      <Filter>Исходные файлы\Strategy</Filter>
     </ClCompile>
     <ClCompile Include="Singleton\run.cpp">
       <Filter>Исходные файлы\Singleton</Filter>
@@ -433,6 +445,12 @@
     </ClInclude>
     <ClInclude Include="Singleton\singleton.h">
       <Filter>Файлы заголовков\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\run.h">
+      <Filter>Файлы заголовков\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\strategy.h">
+      <Filter>Файлы заголовков\Strategy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

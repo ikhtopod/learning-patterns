@@ -176,6 +176,8 @@
     <ClCompile Include="Singleton\singleton.cpp" />
     <ClCompile Include="State\run.cpp" />
     <ClCompile Include="State\state.cpp" />
+    <ClCompile Include="Strategy\run.cpp" />
+    <ClCompile Include="Strategy\strategy.cpp" />
     <ClCompile Include="TemplateMethod\run.cpp" />
     <ClCompile Include="TemplateMethod\templatemethod.cpp" />
   </ItemGroup>
@@ -226,6 +228,8 @@
     <ClInclude Include="Singleton\singleton.h" />
     <ClInclude Include="State\run.h" />
     <ClInclude Include="State\state.h" />
+    <ClInclude Include="Strategy\run.h" />
+    <ClInclude Include="Strategy\strategy.h" />
     <ClInclude Include="TemplateMethod\run.h" />
     <ClInclude Include="TemplateMethod\templatemethod.h" />
   </ItemGroup>
