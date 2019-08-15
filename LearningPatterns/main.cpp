@@ -31,7 +31,6 @@ void initPatterns() {
 	psg.AddPatternName("Mediator");
 	psg.AddPatternName("Memento");
 	psg.AddPatternName("Proxy");
-	psg.AddPatternName("TemplateMethod");
 	psg.AddPatternName("Singleton");
 	psg.AddPatternName("Strategy");
 	psg.AddPatternName("Visitor");

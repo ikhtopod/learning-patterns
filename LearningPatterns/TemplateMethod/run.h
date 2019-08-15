@@ -5,6 +5,9 @@
 
 #include "templatemethod.h"
 
+#include <iostream>
+#include <memory>
+
 namespace TemplateMethod {
 
 void Run();
