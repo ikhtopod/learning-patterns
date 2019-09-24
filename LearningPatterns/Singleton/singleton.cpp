@@ -3,5 +3,4 @@
 namespace Singleton {
 
 
-
 } // namespace Singleton

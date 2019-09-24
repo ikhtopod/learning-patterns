@@ -5,6 +5,9 @@
 
 #include "singleton.h"
 
+#include <iostream>
+#include <iomanip>
+
 namespace Singleton {
 
 void Run();
