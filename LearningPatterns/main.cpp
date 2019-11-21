@@ -30,7 +30,6 @@ void initPatterns() {
 	psg.AddPatternName("Interpreter");
 	psg.AddPatternName("Mediator");
 	psg.AddPatternName("Memento");
-	psg.AddPatternName("Proxy");
 	psg.AddPatternName("Visitor");
 	psg.Generate();
 }
@@ -53,12 +52,12 @@ int main() {
 	// Facade::Run();
 	// TemplateMethod::Run();
 	// Strategy::Run();
+	// Singleton::Run();
 	FactoryMethod::Run();
 	Interpreter::Run();
 	Mediator::Run();
 	Memento::Run();
 	Proxy::Run();
-	Singleton::Run();
 	Visitor::Run();
 
 	return 0;
